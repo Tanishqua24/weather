@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0vh;
+    background-color: blueviolet;
+    background-image: url("clouds.jpg");
+}
+
+.main {
+    background-color: #8f7f7fd0;
+    color: blue;
+    padding: 5em;
+    width: 30%;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3f3e3ed0;
+}
+
+button {
+    margin: 0.5em;
+    border: none;
+    background: #3f3e3ed0;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    background-color: #af9a9ad0;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.5em;
+    background: #7c7c7c2d;
+    width: 100%;
+}
